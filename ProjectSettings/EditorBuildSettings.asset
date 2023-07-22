@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scene.unity
+    path: Assets/Crowd Runner/Scenes/scene.unity
     guid: 0646b8f5b02e945cea9a3c757638e749
   m_configObjects: {}
