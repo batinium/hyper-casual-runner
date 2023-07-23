@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
+        QualitySettings.vSyncCount = 0;  // VSync active
+        Application.targetFrameRate = 60;
     }
     // Start is called before the first frame update
     void Start()

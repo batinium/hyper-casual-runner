@@ -83,7 +83,7 @@ public class ChunkManager : MonoBehaviour
     }
     public int GetLevel()
     {
-        Debug.Log(PlayerPrefs.GetInt("level", 0));
+        //Debug.Log(PlayerPrefs.GetInt("level", 0));
         return PlayerPrefs.GetInt("level",0);
     }
 }

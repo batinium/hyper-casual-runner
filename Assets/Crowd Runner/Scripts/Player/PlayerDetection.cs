@@ -22,6 +22,7 @@ public class PlayerDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(GameManager.instance.IsGameState())
             DetectColliders();
     }
@@ -33,7 +34,6 @@ public class PlayerDetection : MonoBehaviour
         {
             if (detectedColliders[i].TryGetComponent(out Doors doors))
             {
-                Debug.Log("works");
 
                 int bonusAmount = doors.GetBonusAmount(transform.position.x);
                 BonusType bonusType = doors.GetBonusType(transform.position.x);

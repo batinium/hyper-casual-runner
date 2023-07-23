@@ -71,7 +71,6 @@ public class UIManager : MonoBehaviour
         {
             float progress = PlayerController.instance.transform.position.z / ChunkManager.instance.GetFinishLineZ();
             progresBar.value = progress;
-            Debug.Log("updated");
         }
         else
         {
